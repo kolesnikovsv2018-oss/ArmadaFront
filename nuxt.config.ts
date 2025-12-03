@@ -5,7 +5,12 @@ export default defineNuxtConfig({
   devServer: {
     port: 3001
   },
-  modules: ['@nuxtjs/tailwindcss', '@nuxt/eslint'],
+  modules: [
+    '@nuxtjs/tailwindcss',
+    '@nuxt/eslint'
+  ],
 
-  css: ['~/assets/css/main.css'],
+  tailwindcss: {
+    // Options
+  },
 })
